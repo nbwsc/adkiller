@@ -152,7 +152,7 @@ function main(callback) {
 	callback && callbak()
 	if (_timeout < 1000000)
 		setTimeout(main, _timeout)
-	// _timeout = _timeout * 2
+	_timeout = _timeout * 2
 }
 
 setTimeout(main, 1000)

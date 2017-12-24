@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "AD KILLER",
-    "version": "0.8",
+    "version": "0.9",
     "description": "a plugin which can kill the ads in your web page",
     "browser_action": {
         "default_icon": "images/icon48.png",
