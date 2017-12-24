@@ -5,7 +5,7 @@
 1. `git clone`或者下载zip到本地
     - 推荐git clone ，因为这样能很容易更新最新插件
 
-2. 打开chrome,[extensions](chrome://extensions/),打开`develop mode`
+2. 打开chrome,extensions(chrome://extensions/),打开`develop mode`
 
 3. `Load unpacked extension...` and select the path of the plugin
 
