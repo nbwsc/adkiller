@@ -29,7 +29,8 @@ let _AdAttrFeatures = {
 		"pos.baidu.com"
 	],
 	href: [
-		"3dwwwgame.com/p/redirect.php"
+		"3dwwwgame.com/p/redirect.php",
+		"xcby888.com"
 	]
 }
 
