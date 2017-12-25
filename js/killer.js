@@ -20,13 +20,17 @@ let _AdAttrFeatures = {
 		"cs_DIV_cscpv",
 		"cs_CFdiv",
 		"bdcsFramePicBox",
-		"tcldivtf"
+		"tcldivtf",
+		"tanxssp_con"
 	],
 	src: [
 		"ad_ids",
 		"adflag",
 		"360buyimg.com",
-		"pos.baidu.com"
+		"pos.baidu.com",
+		"ads.vamaker.com",
+		"tanxssp_con_mm",
+		// "tanxssp_con_mm_13767431_9242455_53148287"
 	],
 	href: [
 		"3dwwwgame.com/p/redirect.php",
