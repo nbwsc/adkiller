@@ -69,7 +69,7 @@ function _checkIfKill(element) {
 	for (let i in _AdAttrFeatures) {
 		if (element[i]) {
 			for (let j = 0; j < _AdAttrFeatures[i].length; ++j) {
-				if (element[i].indexOf(_AdAttrFeatures[i][j]) >= 0) {
+				if (element[i].indexOf && element[i].indexOf(_AdAttrFeatures[i][j]) >= 0) {
 					return true
 				}
 			}
