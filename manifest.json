@@ -1,24 +1,24 @@
 {
-    "manifest_version": 2,
-    "name": "AD KILLER",
-    "version": "0.9",
-    "description": "a plugin which can kill the ads in your web page",
-    "browser_action": {
-        "default_icon": "images/icon48.png",
-        "default_title": "AD KILLER",
-        "default_popup": "popup.html"
-    },
-    "icons": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
-    },
-    "permissions": [
-
-    ],
-    "content_scripts": [{
-        "matches": ["http://*/*", "https://*/*"],
-        "js": ["js/killer.js"],
-        "run_at": "document_start"
-    }]
+  "manifest_version": 2,
+  "name": "AD KILLER",
+  "version": "0.91",
+  "description": "a plugin which can kill the ads in your web page",
+  "browser_action": {
+    "default_icon": "images/icon48.png",
+    "default_title": "AD KILLER",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/killer.js"],
+      "run_at": "document_start"
+    }
+  ]
 }
