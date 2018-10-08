@@ -26,10 +26,12 @@ let _AdAttrFeatures = {
   src: [
     'ad_ids',
     'adflag',
-//    '360buyimg.com',
+    //    '360buyimg.com',
     'pos.baidu.com',
     'ads.vamaker.com',
     'tanxssp_con_mm',
+    'iteye.com',
+    'mediav.com',
     // "tanxssp_con_mm_13767431_9242455_53148287"
   ],
   href: ['3dwwwgame.com/p/redirect.php', 'xcby888.com'],
@@ -119,7 +121,7 @@ function _listDocument() {
     if (!aNode) return;
     if (_checkIfKill(aNode)) {
       killCount++;
-      console.log('kill ', killCount, '');
+      console.debug('kill ', killCount, '');
       _killAD(aNode);
     } else {
       for (var idx in aNode.childNodes) {
